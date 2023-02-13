@@ -1,4 +1,4 @@
-# Movie Trailer App
+# Trailer Mate App
 The Movie Trailer App is an iOS application that allows users to search for and watch trailers for their favorite movies. This app is designed to provide an intuitive and user-friendly interface that allows users to easily find and watch movie trailers.
 
 # Features
