@@ -31,3 +31,9 @@ The Movie Trailer App was created by IPH Technologies Pvt Ltd.
 
 License
 The Movie Trailer App is released under the MIT License.
+
+
+# Screenshots
+<img src="https://user-images.githubusercontent.com/124868842/220329477-ef11f86e-3cef-4d5f-9af4-9bd85c1b4344.gif" 
+     width="200" 
+     height="400"/>
