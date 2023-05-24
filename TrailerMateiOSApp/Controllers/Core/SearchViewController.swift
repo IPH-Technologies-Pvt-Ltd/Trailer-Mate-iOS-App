@@ -1,6 +1,6 @@
 //
 //  SearchViewController.swift
-//  NetflixClone
+//TrailerMateiOSApp
 //
 //  Created by vivek shrivastwa on 21/04/22.
 //

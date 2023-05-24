@@ -21,7 +21,7 @@
 		315FA01B280F28E80081F17C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315FA01A280F28E80081F17C /* AppDelegate.swift */; };
 		315FA01D280F28E80081F17C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315FA01C280F28E80081F17C /* SceneDelegate.swift */; };
 		315FA01F280F28E80081F17C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315FA01E280F28E80081F17C /* MainTabBarViewController.swift */; };
-		315FA025280F28E80081F17C /* NetflixClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 315FA023280F28E80081F17C /* NetflixClone.xcdatamodeld */; };
+		315FA025280F28E80081F17C /* TrailerMateiOSApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 315FA023280F28E80081F17C /* TrailerMateiOSApp.xcdatamodeld */; };
 		315FA027280F28EC0081F17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315FA026280F28EC0081F17C /* Assets.xcassets */; };
 		315FA033281094360081F17C /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315FA032281094360081F17C /* UpcomingViewController.swift */; };
 		315FA035281094460081F17C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315FA034281094460081F17C /* SearchViewController.swift */; };
@@ -140,7 +140,7 @@
 				315FA031281093F10081F17C /* Controllers */,
 				315FA02B280F28EC0081F17C /* Info.plist */,
 				31B92055281B554B007FEE55 /* LaunchScreen.storyboard */,
-				315FA023280F28E80081F17C /* NetflixClone.xcdatamodeld */,
+				315FA023280F28E80081F17C /* TrailerMateiOSApp.xcdatamodeld */,
 			);
 			path = TrailerMateiOSApp;
 			sourceTree = "<group>";
@@ -329,7 +329,7 @@
 				31094DCC28181F1B00FC96FB /* TitlePreviewViewModel.swift in Sources */,
 				315FA035281094460081F17C /* SearchViewController.swift in Sources */,
 				315FA0422811AA010081F17C /* HeroHeaderUIView.swift in Sources */,
-				315FA025280F28E80081F17C /* NetflixClone.xcdatamodeld in Sources */,
+				315FA025280F28E80081F17C /* TrailerMateiOSApp.xcdatamodeld in Sources */,
 				315FA0442811CD000081F17C /* AppConstants.swift in Sources */,
 				315FA0372810945C0081F17C /* DownloadsViewController.swift in Sources */,
 				315FA039281094D00081F17C /* HomeViewController.swift in Sources */,
@@ -555,13 +555,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		315FA023280F28E80081F17C /* NetflixClone.xcdatamodeld */ = {
+		315FA023280F28E80081F17C /* TrailerMateiOSApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				315FA024280F28E80081F17C /* NetflixClone.xcdatamodel */,
 			);
 			currentVersion = 315FA024280F28E80081F17C /* NetflixClone.xcdatamodel */;
-			path = NetflixClone.xcdatamodeld;
+			path = TrailerMateiOSApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

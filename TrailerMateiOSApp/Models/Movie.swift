@@ -3,7 +3,7 @@
 
 //
 //  Movie.swift
-//  Netflix Clone
+//  TrailerMateiOSApp
 //
 //  Created by Amr Hossam on 08/12/2021.
 //

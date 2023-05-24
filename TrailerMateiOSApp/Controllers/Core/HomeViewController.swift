@@ -1,6 +1,6 @@
 //
 //  HomeViewController.swift
-//  NetflixClone
+//TrailerMateiOSApp
 //
 //  Created by vivek shrivastwa on 21/04/22.
 //
@@ -65,7 +65,7 @@ class HomeViewController: UIViewController {
     }
     
     private func configureNavBar(){
-        var image = UIImage(named: "netflix")
+        var image = UIImage(named: "icon")
         image = image?.withRenderingMode(.alwaysOriginal)
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: nil)
         let person =  UIBarButtonItem(image: UIImage(systemName: "person"), style: .done, target: self, action: nil)
