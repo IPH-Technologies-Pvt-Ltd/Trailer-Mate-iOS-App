@@ -1,6 +1,6 @@
 //
 //  APICaller.swift
-//  Netflix Clone
+//  TrailerMateiOSApp
 //
 //  Created by Vivek Shrivastwa 28/04/22.
 //
@@ -11,8 +11,8 @@ import Foundation
 struct Constants {
     static let API_KEY = "877a86d2d8c4aac067a20c85737a59a5"
     static let baseURL = "https://api.themoviedb.org"
-    static let YoutubeAPI_KEY = "AIzaSyDqX8axTGeNpXRiISTGL7Tya7fjKJDYi4g"
-    static let YoutubeBaseURL = "https://youtube.googleapis.com/youtube/v3/search?"
+    static let VideoAPI_KEY = "AIzaSyDqX8axTGeNpXRiISTGL7Tya7fjKJDYi4g"
+    static let VideoBaseURL = "https://youtube.googleapis.com/youtube/v3/search?"
 }
 
 enum APIError: Error {
@@ -169,14 +169,14 @@ class APICaller {
         
 
         guard let query = query.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) else {return}
-        guard let url = URL(string: "\(Constants.YoutubeBaseURL)q=\(query)&key=\(Constants.YoutubeAPI_KEY)") else {return}
+        guard let url = URL(string: "\(Constants.VideoBaseURL)q=\(query)&key=\(Constants.VideoAPI_KEY)") else {return}
         let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, _, error in
             guard let data = data, error == nil else {
                 return
             }
             
             do {
-                let results = try JSONDecoder().decode(YoutubeSearchResponse.self, from: data)
+                let results = try JSONDecoder().decode(VideoSearchResponse.self, from: data)
                 
                 completion(.success(results.items[0]))
                 

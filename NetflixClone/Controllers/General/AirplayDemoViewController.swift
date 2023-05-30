@@ -1,6 +1,6 @@
 //
 //  AirplayDemoViewController.swift
-//  NetflixClone
+//  TrailerMateiOSApp
 //
 //  Created by vivek shrivastwa on 20/05/22.
 //

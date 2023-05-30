@@ -8,10 +8,11 @@
 import UIKit
 
 class LaunchScreenViewController: UIViewController {
-
+    @IBOutlet weak var screenLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        screenLabel.backgroundColor = .systemBlue
         // Do any additional setup after loading the view.
     }
     

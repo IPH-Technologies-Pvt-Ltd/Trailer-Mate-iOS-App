@@ -1,6 +1,6 @@
 //
 //  SearchResultViewController.swift
-//  NetflixClone
+//  TrailerMateiOSApp
 //
 //  Created by vivek shrivastwa on 26/04/22.
 //
@@ -65,7 +65,7 @@ extension SearchResultViewController: UICollectionViewDelegate, UICollectionView
                 let title = self?.titles[indexPath.row]
                 guard let overview = title?.overview else { return }
                 guard let strongSelf = self else { return }
-                let viewModel = TitlePreviewViewModel(title: titleName, youtubeView: videoElement, titleOverview: overview)
+                let viewModel = TitlePreviewViewModel(title: titleName, videoView: videoElement, titleOverview: overview)
                 strongSelf.delegate?.searchResultViewControllerDidTapItem(viewModel)
             case .failure(let error):
                 print(error.localizedDescription)

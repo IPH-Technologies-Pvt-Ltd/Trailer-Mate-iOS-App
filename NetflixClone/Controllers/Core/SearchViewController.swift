@@ -1,6 +1,6 @@
 //
 //  SearchViewController.swift
-//  NetflixClone
+//  TrailerMateiOSApp
 //
 //  Created by vivek shrivastwa on 21/04/22.
 //
@@ -118,7 +118,7 @@ extension SearchViewController: UISearchResultsUpdating {
             switch result {
             case .success(let videoElement):
                 DispatchQueue.main.async {
-                    let viewModel = TitlePreviewViewModel(title: titleName, youtubeView: videoElement, titleOverview: overview)
+                    let viewModel = TitlePreviewViewModel(title: titleName, videoView: videoElement, titleOverview: overview)
                     let vc = VideoPreviewViewController()
                     vc.configure(with: viewModel)
                     self?.navigationController?.pushViewController(vc, animated: false)
