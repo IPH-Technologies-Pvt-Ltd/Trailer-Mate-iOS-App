@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //TrailerMateiOSApp
 //
-//  Created by vivek shrivastwa on 19/04/22.
+//  Created by IPH Technologies Pvt. Ltd on 19/04/22.
 //
 
 import UIKit

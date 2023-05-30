@@ -2,7 +2,7 @@
 //  AirplayDemoViewController.swift
 //TrailerMateiOSApp
 //
-//  Created by vivek shrivastwa on 20/05/22.
+//  Created by IPH Technologies Pvt. Ltd on 20/05/22.
 //
 
 import UIKit
