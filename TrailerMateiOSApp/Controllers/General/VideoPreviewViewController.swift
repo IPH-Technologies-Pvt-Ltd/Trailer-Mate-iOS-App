@@ -91,7 +91,7 @@ class VideoPreviewViewController: UIViewController {
     func configure(with model: TitlePreviewViewModel) {
         titleLabel.text = model.title
         overviewLabel.text = model.titleOverview
-        guard let url = URL(string: "https://www.youtube.com/embed/\(model.youtubeView.id.videoId)") else {
+        guard let url = URL(string: "https://www.youtube.com/embed/\(model.videoView.id.videoId)") else {
             return
         }
         webView.load(URLRequest(url: url))

@@ -225,7 +225,7 @@ extension HomeViewController: HeroHeaderViewDelegate {
             switch result {
             case .success(let videoElement):
                 DispatchQueue.main.async {
-                    let viewModel = TitlePreviewViewModel(title: titleName, youtubeView: videoElement, titleOverview: overview)
+                    let viewModel = TitlePreviewViewModel(title: titleName, videoView: videoElement, titleOverview: overview)
                     let vc = VideoPreviewViewController()
                     vc.configure(with: viewModel)
                     self?.navigationController?.pushViewController(vc, animated: false)
