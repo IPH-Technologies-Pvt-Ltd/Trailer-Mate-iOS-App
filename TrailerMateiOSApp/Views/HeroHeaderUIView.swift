@@ -1,6 +1,6 @@
 //
 //  HeroHeaderUIView.swift
-//TrailerMateiOSApp
+//  TrailerMateiOSApp
 //
 //  Created by IPH Technologies Pvt. Ltd on 21/04/22.
 //
@@ -89,19 +89,39 @@ class HeroHeaderUIView: UIView {
     
     func applyConstraints() {
         playButton.translatesAutoresizingMaskIntoConstraints = false
-        let leadingConstraint = playButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant:80)
-        let bottomConstraint = playButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -50)
-        let widthConstraint = playButton.widthAnchor.constraint(equalToConstant: 100)
-        NSLayoutConstraint.activate([leadingConstraint, bottomConstraint, widthConstraint])
-        
-        downlaodButton.translatesAutoresizingMaskIntoConstraints = false
-        let downloadButtonConstraints = [
-            downlaodButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -80),
-            downlaodButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -50),
-            downlaodButton.widthAnchor.constraint(equalToConstant: 100)
-        ]
-        
-        NSLayoutConstraint.activate(downloadButtonConstraints)
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            let leadingConstraint = playButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant:200)
+            let bottomConstraint = playButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -50)
+            let widthConstraint = playButton.widthAnchor.constraint(equalToConstant: 150)
+            let heightConstraint = playButton.heightAnchor.constraint(equalToConstant: 50)
+            NSLayoutConstraint.activate([leadingConstraint, bottomConstraint, widthConstraint, heightConstraint])
+            
+            downlaodButton.translatesAutoresizingMaskIntoConstraints = false
+            let downloadButtonConstraints = [
+                downlaodButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -200),
+                downlaodButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -50),
+                downlaodButton.widthAnchor.constraint(equalToConstant: 150),
+                downlaodButton.heightAnchor.constraint(equalToConstant: 50)
+            ]
+            
+            NSLayoutConstraint.activate(downloadButtonConstraints)
+        }
+        else {
+            let leadingConstraint = playButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant:80)
+            let bottomConstraint = playButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -50)
+            let widthConstraint = playButton.widthAnchor.constraint(equalToConstant: 100)
+            NSLayoutConstraint.activate([leadingConstraint, bottomConstraint, widthConstraint])
+            
+            downlaodButton.translatesAutoresizingMaskIntoConstraints = false
+            let downloadButtonConstraints = [
+                downlaodButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -80),
+                downlaodButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -50),
+                downlaodButton.widthAnchor.constraint(equalToConstant: 100)
+            ]
+            
+            NSLayoutConstraint.activate(downloadButtonConstraints)
+        }
+       
     }
     
     func configure(with model: TitleViewModel){

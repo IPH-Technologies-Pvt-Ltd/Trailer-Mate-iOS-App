@@ -1,6 +1,6 @@
 //
 //  HomeViewController.swift
-//TrailerMateiOSApp
+//  TrailerMateiOSApp
 //
 //  Created by IPH Technologies Pvt. Ltd on 21/04/22.
 //
@@ -65,7 +65,7 @@ class HomeViewController: UIViewController {
     }
     
     private func configureNavBar(){
-        var image = UIImage(named: "icon")
+        var image = UIImage(named: "logo")
         image = image?.withRenderingMode(.alwaysOriginal)
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: nil)
         let person =  UIBarButtonItem(image: UIImage(systemName: "person"), style: .done, target: self, action: nil)

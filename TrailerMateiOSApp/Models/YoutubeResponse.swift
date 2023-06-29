@@ -1,6 +1,6 @@
 //
 //  VideoResponse.swift
-//TrailerMateiOSApp
+//  TrailerMateiOSApp
 //
 //  Created by IPH Technologies Pvt. Ltd on 26/04/22.
 //
