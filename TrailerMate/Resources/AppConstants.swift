@@ -47,8 +47,6 @@ struct AppConstants {
     static let titleTableViewCellIdentifier = "TitleTableViewCell"
 }
 
-
-
 struct MoviesCategory {
     
     let title: String
