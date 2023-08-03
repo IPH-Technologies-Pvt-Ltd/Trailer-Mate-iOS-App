@@ -1,5 +1,5 @@
 # Trailer Mate App
-[![Dart](https://img.shields.io/badge/dart-%2320232a.svg?style=for-the-badge&logo=dart&logoColor=%230175C2)](https://dart.dev/)
+[![Swift](https://img.shields.io/badge/swift-%2320232a.svg?style=for-the-badge&logo=swift&logoColor=%23F05138)](https://swift.org/)
 [![Ruby](https://img.shields.io/badge/ruby-%2320232a.svg?style=for-the-badge&logo=ruby&logoColor=%23CC342D)](https://www.ruby-lang.org/)
 
 The Movie Trailer App is an iOS application that allows users to search for and watch trailers for their favorite movies. This app is designed to provide an intuitive and user-friendly interface that allows users to easily find and watch movie trailers.
