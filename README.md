@@ -37,4 +37,4 @@ The Movie Trailer App is released under the MIT License.
 
 
 # Screenshots
-![TalkToMe](https://ibb.co/3d3Nq3P)
+![Screenshot](https://ibb.co/3d3Nq3P)
