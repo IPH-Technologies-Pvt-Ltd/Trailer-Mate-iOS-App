@@ -37,6 +37,6 @@ The Movie Trailer App is released under the MIT License.
 
 
 # Screenshots
-<img src="https://github.com/IPH-Technologies-Pvt-Ltd/Card-Swipe-iOS/blob/main/ezgif.com-optimize%20(1).gif" 
+<img src="https://github.com/IPH-Technologies-Pvt-Ltd/Trailer-Mate-iOS-App/blob/main/TrailerMate.gif" 
      width="200" 
      height="400"/>
